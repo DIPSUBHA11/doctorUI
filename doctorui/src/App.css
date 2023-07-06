@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date-picker {
+  display: flex;
+  flex-direction: column;
+}
+
+.date-picker .react-datepicker-wrapper {
+  align-self: center;
+}
+
+.time-zones {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.time-slot-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.time-slot-box {
+  width: 80px;
+  height: 60px;
+  border: 1px solid black;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-slot-value {
+  font-size: 14px;
+}
+
+.parentUIElement {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.parentUIElement li {
+  margin: 20px 30px;
+}
+
+.selected {
+  background-color: #ff0000;
+}
+
+
+.prompt-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99
+}
+
+.prompt-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.prompt-box h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.prompt-box p {
+  margin-bottom: 20px;
+}
+
+.prompt-box button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.prompt-box button:hover {
+  background-color: #0056b3;
+}
+
+.get-event-box {
+  width: 150px;
+  height: 60px;
+  border: 1px solid black;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
